@@ -5,7 +5,6 @@ const collectAllObj = [];
 const form = document.getElementById('form');
 const collectItems = document.getElementsByTagName('input');
 
-
 const createBook = () => {
   form.addEventListener('submit', (event) => {
     event.preventDefault();
