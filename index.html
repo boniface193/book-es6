@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Awesome Book</title>
+</head>
+
+<body>
+  <header class="container bg-white">
+    
+    <nav class="d-flex align-center justify-between">
+      <a href="./index.html">
+        <h1>Awesome books</h1>
+      </a>
+      <aside>
+        <ul class="d-flex ">
+          <li id="list">
+            <a href="#index">List |</a>
+          </li>
+          <li id="addNew">
+            <a href="#addBook">Add new |</a>
+          </li>
+          <li id="Contact">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </aside>
+    </nav>
+  </header>
+
+  <section class="container">
+    <span id="currentDate" class="justify-end d-flex mt-2">412 452 265 jjjkio </span>
+    <div id="index">
+      <h3 class="text-center">All awesome books</h3>
+      <aside class="card card-strip mt-5" id="showItems">
+      </aside>
+    </div>
+
+    <aside class="w-50 d-none" id="addBook">
+      <h3 class="text-center">Add a new book</h3>
+      <form id="form" class="mt-5">
+        <input type="text" name="title" placeholder="Title" class="mb-3 card-strip">
+        <input type="text" name="Author" placeholder="Author" class="card-strip">
+        <div class="d-flex justify-end mt-3">
+          <button type="submit" class="card-strip btn-space">Add</button>
+        </div>
+      </form>
+    </aside>
+
+    <aside id="contact" class="d-none d-flex justify-center">
+      <div class="mb-5">
+        <h3 class="text-center">Contact information</h3>
+        <p>Do you have any questions or you just want to say "Hello"?</p>
+        <p>You can reach out to us!</p>
+        <ul>
+          <li>. Our e-mail <a href="mailto:bonifacedennis99@gmail.com" target="_blank">bonifacedennis99</a></li>
+          <li>. Our phone <a href="tel:+2348134714125" target="_blank">+2348134714125</a></li>
+          <li>. Our address </a>Lagos, Nigeria</li>
+        </ul>
+      </div>
+    </aside>
+  </section>
+
+  <section class="d-flex container">
+    <aside class="left mb-5">
+      Copyright &COPY;
+    </aside>
+    <aside id="CurrentYear" class="right mb-5"></aside>
+  </section>
+
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>
