@@ -1,6 +1,7 @@
 const showItem = document.getElementById('showItems');
 
 const showBook = () => {
+  
   showItem.innerHTML = '';
   const getpayLoad = JSON.parse(localStorage.getItem('payLoad'));
 
