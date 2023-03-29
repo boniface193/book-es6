@@ -5,6 +5,7 @@ const index = document.getElementById('index');
 const addBook = document.getElementById('addBook');
 const contact = document.getElementById('contact');
 
+
 const Navigator = () => {
   home.addEventListener('click', () => {
     addBook.classList.add('d-none');
