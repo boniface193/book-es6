@@ -124,15 +124,6 @@ Install this project with:
 
 npm install
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
